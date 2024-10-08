@@ -4,6 +4,8 @@ import samsung from "../../assets/samsung.jpg";
 import facebook from "../../assets/facebook.jpg";
 import traveltalk from "../../assets/traveltalk.jpg";
 import ProjectCard from "../../common/ProjectCard";
+import Linetoday from "../../assets/linetoday.jpg";
+import LinetodayPublic from "../../assets/linetodaypublic.jpg";
 
 function Projects() {
   return (
@@ -30,9 +32,21 @@ function Projects() {
         />
         <ProjectCard
           src={traveltalk}
-          link="https://github.com/RinasCode/TravelTalk.git"
+          link="https://travel-talk-vercell.vercel.app"
           h3="Travel Talk"
           p="A hotel recommendation application using Gemini AI"
+        />
+        <ProjectCard
+          src={Linetoday}
+          link="https://line-today-clone-cms.vercel.app"
+          h3="Line Today CMS"
+          p="A news portal CMS with CRUD capabilities for both admin and staff. Only admins have the privilege to add users. The system is designed to manage news articles and content efficiently, providing full control over the platform's content."
+        />
+        <ProjectCard
+          src={LinetodayPublic}
+          link="https://line-today-clone-ten.vercel.app"
+          h3="Line Today Public"
+          p="A public news portal where users can freely view all news articles without the need for login. The platform offers seamless access to a wide range of news content, ensuring information is available to everyone."
         />
       </div>
     </section>

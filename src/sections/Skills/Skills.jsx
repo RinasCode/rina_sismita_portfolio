@@ -27,6 +27,17 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Redis" />
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
         <SkillList src={checkMarkIcon} skill="RESTful APIs" />
+        <SkillList src={checkMarkIcon} skill="Cloud Computing" />
+      </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Gemini AI" />
+        <SkillList src={checkMarkIcon} skill="Vercel" />
+        <SkillList src={checkMarkIcon} skill="Azure" />
+        <SkillList src={checkMarkIcon} skill="AWS" />
+        <SkillList src={checkMarkIcon} skill="GCP" />
+        <SkillList src={checkMarkIcon} skill="Netlify" />
+        <SkillList src={checkMarkIcon} skill="Heroku" />
       </div>
       <hr />
       <div className={styles.skillList}>
