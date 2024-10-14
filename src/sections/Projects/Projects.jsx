@@ -32,7 +32,7 @@ function Projects() {
         />
         <ProjectCard
           src={traveltalk}
-          link="https://travel-talk-vercell.vercel.app"
+          link="https://traveltalkbyrina.netlify.app"
           h3="Travel Talk"
           p="A hotel recommendation application using Gemini AI"
         />
